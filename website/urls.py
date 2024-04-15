@@ -9,4 +9,5 @@ urlpatterns = [
     path("team/", views.team, name="team"),
     path("testimonial/", views.testimonial, name="testimonial"),
     path("404/", views.Error404, name="404"),
+    path("login/", views.user_login, name="user_login"),
 ]

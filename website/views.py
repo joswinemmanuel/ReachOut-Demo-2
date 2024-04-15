@@ -20,3 +20,6 @@ def testimonial(request):
 
 def Error404(request):
     return render(request, '404.html')
+
+def user_login(request):
+    return render(request, 'login.html')
