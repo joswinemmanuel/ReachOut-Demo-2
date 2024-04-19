@@ -23,3 +23,12 @@ def Error404(request):
 
 def user_login(request):
     return render(request, 'login.html')
+
+def user_register(request):
+    return render(request, 'register.html')
+
+def signin(request):
+    return render(request, 'signin.html')
+
+def signup(request):
+    return render(request, 'signup.html')

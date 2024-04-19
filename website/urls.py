@@ -10,4 +10,7 @@ urlpatterns = [
     path("testimonial/", views.testimonial, name="testimonial"),
     path("404/", views.Error404, name="404"),
     path("login/", views.user_login, name="user_login"),
+    path("register/", views.user_register, name="user_register"),
+    path("signin/", views.signin, name="signin"),
+    path("signup/", views.signup, name="signup"),
 ]
